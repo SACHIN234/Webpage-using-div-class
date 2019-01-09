@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Webpage Using DIV Class</title>
+    <style>
+        .container {
+            height: 100%;
+            width: 100%;
+            margin-bottom: 200px;
+        }
+
+        .main-header {
+            height: 40px;
+            width: 100%;
+            background-color: rgb(2, 179, 179);
+            margin-top: -10px;
+        }
+
+        .nav {
+            height: 120px;
+            width: 85%;
+            background-color: white;
+            margin-top: -15px;
+        
+        }
+
+        .content {
+            height: 400px;
+            width: 100%;
+            background-image: url(pixels.jpeg);
+            margin-top: -25px;
+        }
+
+        .left {
+            height: 450px;
+            width: 33%;
+            background-color: white;
+            float: left;
+        }
+
+        .center {
+            height: 450px;
+            width: 34%;
+            background-color: white;
+            float: left;
+        }
+
+        .right {
+            height: 450px;
+            width: 33%;
+            background-color: white;
+            float: left;
+        }
+
+        .main-footer {
+            height: 100px;
+            width: 100%;
+            background-color: bisque;
+            float: left;
+
+        }
+
+        .main-header p1 {
+            height: 30px;
+            width: 30px;
+            line-height: 5px;
+            text-indent: 2px;
+            background-color: bisque;
+        }
+
+        .content p {
+           margin-left: 300px;
+            color: black;
+            width: 50%;
+            font-size: 20px;
+            font-weight: bold;
+        }
+
+        .content h1 {
+            text-align: center;
+            line-height: 200px;
+            color: black;
+        }
+
+        .nav li {
+            display: inline;
+            padding: 10px;
+            line-height: 150px;
+            font-family: Arial, Helvetica, sans-serif;
+            color: gray;
+        
+
+        }
+        .nav ul{
+            margin-left: 600px;
+        }
+        .nav h1{
+            display: inline-block;
+            
+            
+        }
+
+        .left p {
+            height: 125px;
+            width: 125px;
+            border-radius: 50%;
+            
+            margin-top: 70px;
+            margin-left: 150px;
+        }
+
+        .center p {
+            height: 125px;
+            width: 125px;
+            border-radius: 50%;
+            
+            margin-top: 70px;
+            margin-left: 150px;
+        }
+
+        .right p {
+            height: 125px;
+            width: 125px;
+            border-radius: 50%;
+            
+            margin-top: 70px;
+            margin-left: 150px;
+        }
+
+        .left h2 {
+            text-align: center;
+            color: gray;
+        }
+
+        .center h2 {
+            text-align: center;
+            color: gray;
+        }
+
+        .right h2 {
+            text-align: center;
+            color: gray;
+        }
+        .left h3{
+            color: grey;
+        }
+        .center h3{
+            color: grey;
+        }
+        .right h3{
+            color: grey;
+        }
+        .main-header p{
+            
+           margin-left: 85%;
+            line-height: 60px;
+            display: inline;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="main-header">
+            <p >  
+                <img src = "facebook.png" alt = "no image" height = "30" width="30" style="border-radius:50%" ;/>
+                <img src = "spotify.png" alt = "no image" height = "30" width="30" style="border-radius:50%";/>
+                <img src = "twitter.png" alt = "no image" height = "30" width="30" style="border-radius:50%";/>
+                <img src = "google-plus.png" alt = "no image" height = "30" width="30" style="border-radius:50%";/>
+                <img src = "dribbble.png" alt = "no image" height = "30" width="30" style="border-radius:50%";/>  
+            </p>
+        </div>
+        <div class="nav">
+            <ul>
+                <li>HOME</li>
+                <li>PAGES</li>
+                <li>SHOP</li>
+                <li>PORTFOLIO</li>
+                <li>BLOG</li>
+                
+            </ul>
+            <h1>MAXI</h1>
+            <h1 style = "color: rgb(20, 97, 197)">BIZ</h1>
+            
+            
+        </div>
+        <div class="content">
+            <h1>
+                A Bootstrap Template designed for all your business needs.
+            </h1>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Enim ab molestias quos amet soluta a dolores
+                ad nulla veritatis? Error, veniam maxime dolorem nam tenetur reiciendis incidunt possimus rerum dolore!</p>
+        </div>
+        <div class="left">
+            <p>
+                <img src = "steam.png" alt = "no image" height = "100" width="100" style="border-radius:50%";>
+            </p>
+            <h2>Responsive Layout</h2>
+            <h3>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Totam laborum repellat repudiandae! Itaque
+                . Magnam eligendi eaque perspiciatis
+                ab autem.</h3>
+        </div>
+        <div class="center">
+            <p>
+                <img src = "logos.png" alt = "no image" height = "100" width="100" style="border-radius:50%";>
+            </p>
+            <h2>Creative Design</h2>
+            <h3>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime temporibus quae debitis officiis
+                 laudantium natus, aspernatur velit
+                corporis fuga accusamus. Molestias, ullam illo!</h3>
+        </div>
+        <div class="right">
+            <p>
+                <img src = "logo.png" alt = "no image" height = "100" width="100" style="border-radius:50%";> 
+            </p>
+            <h2>Easy To Setup</h2>
+            <h3>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Totam laborum repellat repudiandae! Itaque
+                . Magnam eligendi eaque perspiciatis
+                ab autem.</h3>
+        </div>
+        <div class="main-footer">
+
+        </div>
+    </div>
+</body>
+
+</html>
